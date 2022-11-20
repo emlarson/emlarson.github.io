@@ -57,6 +57,7 @@ Now let's play with changing the way that website looks by editing the code and 
 ### Mark your change important by "committing" it and "push" it onto GitHub.com
 
 1. In the far-left-side vertical strip of navigation icons, click the slightly-"`Y`"-shaped icon just below the magnifying glass icon, which now has a blue number "`1`" in a circle superimposed over it.  When you hover over the icon you need to click, it will be labeled labeled "**Source Control**."
+    ![GitHub official screenshot of the Source Control view in the Codespaces Activity Bar](https://docs.github.com/assets/cb-59829/images/help/codespaces/source-control-activity-bar-button.png)
 1. The 2nd-from-the-left-hand pane will fill in with contents titled "**Source Control**".
 1. Toward the top of that pane, in a box labeled "**Message**," type the phrase "`My first edit`".
 1. Click in the blank gray space below that box to make the blue message floating below it go away.
