@@ -62,8 +62,9 @@ Now let's play with changing the way that website looks by editing the code and 
 1. Click in the blank gray space below that box to make the blue message floating below it go away.
 1. Below that box, under "**Changes**," hover over "`index.md`" until icons appear to the right of it.  Click the icon that looks like a "`+`" _(plus sign)_ and that, when you hover over it, is labeled "**Stage Changes**."  You should see "`index.md`" move out of "**Changes**" and upward into a new section called "**Staged Changes**."
 1. Up at the top of the "**Source Control**" panel, click its 3rd icon -- the checkmark icon that, when you hover over it, is labeled "**Commit and Push**."
+1. If you struggled through any of this, the official GitHub Codespaces documentation has some screenshots of what it looks like to do this at "[The github.dev web-based editor -> Commit your changes](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor#commit-your-changes)."
 1. Pat yourself on the back -- you have just used an IDE to edit code, and then used Git's "commit" functionality to comment upon important changes to the codebase's history and Git's "push" functionality to upload those changes to the copy of your "Git repository" that's hosted on GitHub.com.
-1. In a new web browser tab, visit the following website URL in your web browser and note that it _**does**_ say your name now:
+1. In a new web browser tab, visit the following website URL in your web browser and note that your codebase _**does**_ say your name now:
     * Take the phrase "`https://raw.github.com/your-username/your-username.github.io/main/pages/index.md`" and replace "`your-username`" with your actual GitHub username.
     * So, if your GitHub username is `awesomecoder`, you'll want to visit the web page "**`https://raw.github.com/awesomecoder/awesomecoder.github.io/main/pages/index.md`**" instead of "`https://raw.github.com/your-username/your-username.github.io/main/pages/index.md`".
 
