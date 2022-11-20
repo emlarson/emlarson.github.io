@@ -36,10 +36,19 @@ Now let's play with changing the way that website looks by editing the code and 
 
 ### Edit and save a change to the codebase
 
-1. Visit the following website URL in your web browser to open a place where you can edit the codebase, known as an "IDE":
-    * Take the phrase "`https://github.dev/your-username/your-username.github.io`" and replace "`your-username`" with your actual GitHub username.
-    * So, if your GitHub username is `awesomecoder`, you'll want to visit the web page "**`https://github.dev/awesomecoder/awesomecoder.github.io`**" instead of "`https://github.dev/your-username/your-username.github.io`".
-1. In the mostly-left-hand pane labeled "**Explorer**", expand the caret labeled "`pages`" and click the item labeled "`index.md`" to open the file named "`index.md`" for editing in the right-hand pane of the website.
+1. Visit the following website URL in your web browser to open a place _(known as an "IDE")_ where you can edit the "`index.md`" file buried within the codebase:
+    * Take the phrase "`https://github.dev/your-username/your-username.github.io/blob/main/pages/index.md`" and replace "`your-username`" with your actual GitHub username.
+    * So, if your GitHub username is `awesomecoder`, you'll want to visit the web page "**`https://github.dev/awesomecoder/awesomecoder.github.io/blob/main/pages/index.md`**" instead of "`https://github.dev/your-username/your-username.github.io`/blob/main/pages/index.md".
+1. In the right-hand pane of the website, you should see a file-editing interface with a tab at the top labeled "`index.md`" whose body contains the following _(if you don't see it within a minute, close the browser tab and try again -- sometimes the system hangs a bit)_:
+    ```md
+    ---
+    permalink: /index.html
+    title: Tiny Jekyll web site home page
+    layout: fancy_announcement
+    ---
+
+    Hello, world
+    ```
 1. Toward the bottom of that file, delete the word "`world`" from the phrase "`Hello, world`" and type your own name in its place.  Within a few seconds of the moment that you stop typing, this web site will auto-save your work as if you had clicked "File -> Save" in a desktop text editor _(much like Google Docs auto-saves your work when you pause typing)_.
 1. In a new web browser tab, visit the following website URL in your web browser and note that it still says "Hello, world" and does not yet contain your name:
     * Take the phrase "`https://raw.github.com/your-username/your-username.github.io/main/pages/index.md`" and replace "`your-username`" with your actual GitHub username.
@@ -47,8 +56,8 @@ Now let's play with changing the way that website looks by editing the code and 
 
 ### Mark your change important by "committing" it and "push" it onto GitHub.com
 
-1. All the way left, to the left of the pane labeled "**Explorer**", click the 3rd icon down that now has a blue number "`1`" in a circle over it.  When you hover over the icon, it's labeled "**Source Control**."
-1. The pane labeled "**Explorer**" will be replaced by one labeled "**Source Control**".
+1. In the far-left-side vertical strip of navigation icons, click the slightly-"`Y`"-shaped icon just below the magnifying glass icon, which now has a blue number "`1`" in a circle superimposed over it.  When you hover over the icon you need to click, it will be labeled labeled "**Source Control**."
+1. The 2nd-from-the-left-hand pane will fill in with contents titled "**Source Control**".
 1. Toward the top of that pane, in a box labeled "**Message**," type the phrase "`My first edit`".
 1. Click in the blank gray space below that box to make the blue message floating below it go away.
 1. Below that box, under "**Changes**," hover over "`index.md`" until icons appear to the right of it.  Click the icon that looks like a "`+`" _(plus sign)_ and that, when you hover over it, is labeled "**Stage Changes**."  You should see "`index.md`" move out of "**Changes**" and upward into a new section called "**Staged Changes**."
