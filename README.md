@@ -18,6 +18,10 @@
 
 ## Tell GitHub that you would like to host a webpage based on the code in your new Git repository
 
+Let's turn your new codebase into a website.  [Take a look at the website](https://kkgthb.github.io/web-site-jekyll-04-github-pages/) that yours will look like once you get through this section of the instructions.
+
+_(Ignore that the URL of my sample website is a little different than the URL structure I'll be having you use in this tutorial.)_
+
 1. Under your repository name, click Settings _(the gear-shaped icon)_.
     ![GitHub documentation screenshot of the settings icon](https://docs.github.com/assets/cb-27528/images/help/repository/repo-actions-settings.png)
 1. In the "Code and automation" section of the left sidebar, click "**Pages**."
@@ -29,6 +33,10 @@
     * Take the phrase "`https://your-username.github.io/`" and replace "`your-username`" with your actual GitHub username.
     * So, if your GitHub username is `awesomecoder`, you'll want to visit the web page "**`https://awesomecoder.github.io/`**" instead of "`https://your-username.github.io/`".
 1. Pat yourself on the back.  You've just used modern DevOps-oriented tooling to put a web page on the internet based on a little bit of code.
+
+---
+
+---
 
 ## Edit your website with Git
 
@@ -83,3 +91,5 @@ If it's taking more than 5 minutes for your website to appear on the internet af
 [https://www.githubstatus.com/](https://www.githubstatus.com/) is also a great resource that will let you know if something's broken with GitHub Pages altogether -- those outages can take hours or days to get fully resolved, but should eventually self-heal.
 
 Also, don't forget that none of this works if you don't name your repository correctly when you fork it.  [Delete your repository off of GitHub.com](https://docs.github.com/en/repositories/creating-and-managing-repositories/deleting-a-repository) and start over if you made a typo.
+
+* _(Okay, actually, it does work, but if you name your repository `something-else`, then your website will be at `https://your-username.github.io/something-else/` instead of `https://your-username.github.io/`, and all of the instructions I've given you that have the phrase "`your-username/your-username.github.io`" in them need to be thought of as if I'd typed them "`your-username/something-else`" instead, and then you have to replace both "`your-username`" and "`something-else`," which seemed like a lot to explain.  But that's actually what I did with [my sample website based on this codebase](https://kkgthb.github.io/web-site-jekyll-04-github-pages/).)_
