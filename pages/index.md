@@ -4,4 +4,4 @@ title: Tiny Jekyll web site home page
 layout: fancy_announcement
 ---
 
-Hello, world
+Hello, Eric (and Katie!)
